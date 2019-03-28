@@ -1,0 +1,27 @@
+using System.Net;
+using Microsoft.AspNetCore.Mvc;
+using System.Text;
+using System.Security.Cryptography;
+using System;
+
+public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
+{
+    log.LogInformation("C# HTTP trigger function processed a request.");
+
+    string text = req.Query["text"];
+    string key = req.Query["key"];
+
+    ASCIIEncoding encoding = new ASCIIEncoding();
+
+    Byte[] textBytes = encoding.GetBytes(text);
+    Byte[] keyBytes = encoding.GetBytes(key);
+
+    Byte[] hashBytes;
+
+    using (HMACSHA256 hash = new HMACSHA256(keyBytes))
+        hashBytes = hash.ComputeHash(textBytes);
+
+    return key != null
+        ? (ActionResult)new OkObjectResult(BitConverter.ToString(hashBytes).Replace("-", "").ToLower())
+        : new BadRequestObjectResult("Please pass a key on the query string");
+}

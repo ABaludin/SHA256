@@ -1,0 +1,24 @@
+{
+  "id": "b8306951-ca59-49d2-a9b0-3ac2194650fe",
+  "name": "SHA256 Azure function",
+  "publisher": "Andrey Baludin",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "dalogo.png",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "features": ["TranslationFile"],
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
+  "idRange": {
+    "from": 50115,
+    "to": 50125
+  },
+  "runtime": "2.0"
+}

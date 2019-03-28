@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="SHA256 Azure function">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2784869568 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SHA256 Setup - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2784869568 - Field 822393812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HMAC Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SHA256 Setup - Field HMAC Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2784869568 - Field 1945801224 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Signature API</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SHA256 Setup - Field Signature API - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2784869568 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Demo 1 Hash Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SHA256 Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2784869568 - Action 401959251 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send data to Azure function</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SHA256 Setup - Action SendText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1612811020 - NamedType 950858157" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 call to the web service failed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SHA256 management - NamedType Error001_Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1612811020 - NamedType 1788368452" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The web service returned an error message:\ Status code: %1\ Description: %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SHA256 management - NamedType Error002_Err</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
