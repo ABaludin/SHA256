@@ -4,11 +4,8 @@
         {
             "type": "al",
             "request": "launch",
-            "name": "Your own server",
-            "server": "https://ws0104.southeastasia.cloudapp.azure.com",
-            "serverInstance": "NAV",
-            "tenant": "",
-            "authentication": "UserPassword",            
+            "name": "Sandbox",
+            "sandboxName": "Edge",
             "startupObjectId": 50115,
             "startupObjectType": "Page",
             "breakOnError": true
